@@ -1,0 +1,40 @@
+{
+  "name": "riitagrpc-js",
+  "version": "1.0.0",
+  "description": "RiiTag RPC client in JavaScript",
+  "main": "main.js",
+  "bin": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "discord-rpc": "^3.2.0",
+    "open": "^7.4.2"
+  },
+  "pkg": {
+    "assets": [
+      "config.json",
+      "README.md",
+      "LICENSE"
+    ],
+    "scripts": [
+      "main.js",
+      "oauth2client.js",
+      "preferences.js",
+      "RiitagTitleResolver.js",
+      "user.js",
+      "util.js",
+      "watcher.js"
+    ],
+    "targets": [
+      "node18-win-x64"
+    ]
+  },
+  "author": "Just1diax",
+  "license": "GPL-3.0-only",
+  "type": "commonjs",
+  "devDependencies": {
+    "esbuild": "^0.25.5"
+  }
+}
